@@ -1,20 +1,19 @@
 import React from "react";
 import InputZip from "./comps/InputZip";
+import NavBar from "./comps/NavBar";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
 
 
     return (
-        
+        <Router>
         <div>
-            <nav className="nav-container">
-                <a className="nav-item" href="/">Weather</a>
-                <a className="nav-item" href="/">About</a>
-                <a className="nav-item" href="/">Contact</a>
-            </nav>
+            <NavBar />
 
             <InputZip />
         </div>
+        </Router>
     );
 
 }
