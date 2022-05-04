@@ -5,8 +5,7 @@ import NavBar from "./NavBar";
 const Home = () => {
 
     return (
-        <div>
-            <NavBar />
+        <div className="home-content">
             <InputZip />
         </div>
     );

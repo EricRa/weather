@@ -8,7 +8,7 @@ const InputZip = () => {
         <div className="input-zip-container">
             <p>Input Zip Code:</p>
             <form>
-                <label for="zipcode"></label>
+                <label htmlFor="zipcode"></label>
                 <input type="text" /> 
             </form>
         </div>

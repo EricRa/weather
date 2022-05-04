@@ -1,7 +1,9 @@
 import React from "react";
 import Home from "./comps/Home";
-import InputZip from "./comps/InputZip";
+import About from "./comps/About";
+import Contact from "./comps/Contact";
 import NavBar from "./comps/NavBar";
+import License from "./comps/License";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -12,11 +14,11 @@ function App() {
         <div className="main-content">
             <NavBar />
         <Routes>
-            <Route path="/">
-                <Home />
-            </Route>
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Contact" element={<Contact />} />
         </Routes>
-            <Home />
+            <License />
         </div>
         </Router>
     );
