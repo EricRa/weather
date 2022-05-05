@@ -43,5 +43,18 @@ a {
 }
 
 .license-content {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    padding-top: 30vh;
+    padding-bottom:30vh;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+}   
+
+.license-text {
+    font-size: 1rem;
+}
+
+.license-text a {
+    font-size: 1rem;
 }
