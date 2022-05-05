@@ -1,6 +1,5 @@
 import React from "react";
 import InputZip from "./InputZip";
-import NavBar from "./NavBar";
 
 const Home = () => {
 
