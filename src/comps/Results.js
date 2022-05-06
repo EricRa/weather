@@ -8,7 +8,7 @@ const Results = () => {
 
     return (
         <div className="results-content">
-            <p>Forecast:</p>
+            <h1>Forecast for {localStorage.getItem("zipcode")} :</h1>
         </div>
     );
 }

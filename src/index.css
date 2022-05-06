@@ -1,6 +1,7 @@
 @media screen and (min-width: 900px) {
     body {
         max-width: 900px;
+        overflow-x: hidden;
     }    
 
 }
@@ -22,6 +23,7 @@ h1 {
 
 p {
     font-size: 1.8rem;
+    text-align: left;
 }
 
 a {
@@ -35,7 +37,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
 
 }  
 
@@ -44,7 +46,7 @@ a {
     font-size: 2rem;
     display: grid;
     background-color: #333333;
-    padding: 10px;
+    padding: 9px;
     margin: 10px;
     text-decoration: none;
     /* button effect */
