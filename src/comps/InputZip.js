@@ -1,13 +1,15 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link , useNavigate } from "react-router-dom";
 
 const InputZip = () => {
+
+    const navigate = useNavigate();
 
     const [zip, setZip] = useState("");
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        <Link to="/results">Results</Link>
+        navigate("/Results");
     }
 
     return (
