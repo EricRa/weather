@@ -15,7 +15,7 @@ const InputZip = () => {
 
     return (
         <div className="input-zip-container">
-            <h1>Local Weather Forecast</h1>
+            <h1 className="main-header">☀️Local Forecast</h1>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="zipcode">Zip Code: </label>
                 <input 
