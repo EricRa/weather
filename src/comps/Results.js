@@ -14,8 +14,10 @@ const Results = () => {
         return(serverURL);
     }
 
-    const weatherKey = apiFetch();
-    console.log(weatherKey)
+    console.log(process.env.OPENWEATHER_API);
+
+    //const weatherKey = apiFetch();
+    //console.log(weatherKey)
 
     let zipFromStorage = localStorage.getItem("zipcode");
 
