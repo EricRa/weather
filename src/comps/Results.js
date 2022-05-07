@@ -14,7 +14,8 @@ const Results = () => {
         return(serverURL);
     }*/
 
-    console.log(process.env.OPENWEATHER_API);
+    const weatherKey = process.env.OPENWEATHER_API;
+    console.log(weatherKey);
 
     //const weatherKey = apiFetch();
     //console.log(weatherKey)
