@@ -9,11 +9,13 @@ const Results = () => {
         .then(response => response.json())
         .then(json => {
             serverURL = json.api;
-            console.log(serverURL);
         })
+        console.log(serverURL)
+        return(serverURL);
     }
 
-    apiFetch();
+    const weatherKey = apiFetch();
+    console.log(weatherKey)
 
     let zipFromStorage = localStorage.getItem("zipcode");
 
