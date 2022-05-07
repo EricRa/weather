@@ -3,7 +3,7 @@ import React from "react";
 
 const Results = () => {
 
-    function apiFetch() {
+    /*function apiFetch() {
         let serverURL;
         fetch("./netlify/functions/api")
         .then(response => response.json())
@@ -12,7 +12,7 @@ const Results = () => {
         })
         console.log(serverURL)
         return(serverURL);
-    }
+    }*/
 
     console.log(process.env.OPENWEATHER_API);
 
