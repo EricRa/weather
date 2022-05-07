@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# todo list
+todo.md
+
 # testing
 /coverage
 
