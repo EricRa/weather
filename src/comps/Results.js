@@ -3,22 +3,19 @@ import React from "react";
 
 const Results = () => {
 
-    /*function apiFetch() {
+    function apiFetch() {
         let serverURL;
         fetch("./netlify/functions/api")
-        .then(response => response.json())
+        .then(res => res.json())
         .then(json => {
             serverURL = json.api;
         })
-        console.log(serverURL)
+
         return(serverURL);
-    }*/
+    }
 
-    const weatherKey = process.env.OPENWEATHER_API;
-    console.log(weatherKey);
-
-    //const weatherKey = apiFetch();
-    //console.log(weatherKey)
+    const weatherKey = apiFetch();
+    console.log(weatherKey)
 
     let zipFromStorage = localStorage.getItem("zipcode");
 
