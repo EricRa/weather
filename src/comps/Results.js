@@ -5,12 +5,11 @@ const Results = () => {
 
     function apiFetch() {
         let serverURL;
-        fetch("./netlify/functions/api")
+        fetch("https://ericra-weather.netlify.app/.netlify/functions/api")
         .then(res => res.json())
         .then(json => {
             serverURL = json.api;
         })
-
         return(serverURL);
     }
 
