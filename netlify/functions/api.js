@@ -1,6 +1,10 @@
 exports.handler = async (event, context) => {
+
+    //const apiKey = process.env.OPENWEATHER_API;
+
     return {
         statusCode: 200,
-        body: JSON.stringify({ api: process.env.OPENWEATHER_API }),
-    }
+        //body: `${apiKey}`,
+        body: JSON.stringify({ key: process.env.OPENWEATHER_API }),
+    };
 }
